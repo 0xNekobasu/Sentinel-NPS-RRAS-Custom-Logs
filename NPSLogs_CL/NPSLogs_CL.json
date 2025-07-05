@@ -1,0 +1,285 @@
+{
+    "properties": {
+        "schema": {
+               "name": "NPSLogs_CL",
+               "columns": [
+                    {
+                        "name": "TimeGenerated",
+                        "type": "DateTime"
+                    }, 
+                    {
+                        "name": "ComputerName",
+                        "type": "string"
+                    },
+                    {
+                        "name": "ServiceName",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Date",
+                        "type": "string"
+                    },
+                    {
+                        "name": "Time",
+                        "type": "string"
+                    },
+                    {
+                        "name": "PacketType",
+                        "type": "int"
+                    },
+                    {
+                        "name": "UserName",
+                        "type": "string"
+                    },
+                    {
+                        "name": "FQDN",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CalledStationID",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CallingStationID",
+                        "type": "string"
+                    },
+                    {
+                        "name": "CallbackNumber",
+                        "type": "string"
+                    },
+                    {
+                        "name": "FramedIPAddress",
+                        "type": "string"
+                    },
+                    {
+                        "name": "NASIdentifier",
+                        "type": "string"
+                    },
+                    {
+                        "name": "NASIPAddress",
+                        "type": "string"
+                    },
+                    {
+                        "name": "NASPort",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ClientVendor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ClientIPAddress",
+                        "type": "string"
+                    },
+                    {
+                        "name": "ClientFriendlyName",
+                        "type": "string"
+                    },
+                    {
+                        "name": "EventTimestamp",
+                        "type": "DateTime"
+                    },
+                    {
+                        "name": "PortLimit",
+                        "type": "int"
+                    },
+                    {
+                        "name": "NASPortType",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ContactInfo",
+                        "type": "string"
+                    },
+                    {
+                        "name": "FramedProtocol",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ServiceType",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AuthenticationType",
+                        "type": "int"
+                    },
+                    {
+                        "name": "PolicyName",
+                        "type": "string"
+                    },
+                    {
+                        "name": "ReasonCode",
+                        "type": "int"
+                    },
+                    {
+                        "name": "Class",
+                        "type": "string"
+                    },
+                    {
+                        "name": "SessionTimeout",
+                        "type": "int"
+                    },
+                    {
+                        "name": "IdleTimeout",
+                        "type": "int"
+                    },
+                    {
+                        "name": "TerminationAction",
+                        "type": "int"
+                    },
+                    {
+                        "name": "EAPFriendlyName",
+                        "type": "string"
+                    },
+                    {
+                        "name": "AcctStatusType",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AcctDelayTime",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AcctInputOctets",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AcctOutputOctets",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AcctSessionId",
+                        "type": "string"
+                    },
+                    {
+                        "name": "AcctAuthentic",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AcctSessionTime",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AcctInputPackets",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AcctOutputPackets",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AcctTerminateCause",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AcctMultiSsnID",
+                        "type": "string"
+                    },
+                    {
+                        "name": "AcctLinkCount",
+                        "type": "int"
+                    },
+                    {
+                        "name": "AcctInterimInterval",
+                        "type": "int"
+                    },
+                    {
+                        "name": "TunnelType",
+                        "type": "int"
+                    },
+                    {
+                        "name": "TunnelMediumType",
+                        "type": "int"
+                    },
+                    {
+                        "name": "TunnelClientEndpt",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TunnelServerEndpt",
+                        "type": "string"
+                    },
+                    {
+                        "name": "AcctTunnelConn",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TunnelPvtGroupID",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TunnelAssignmentID",
+                        "type": "string"
+                    },
+                    {
+                        "name": "TunnelPreference",
+                        "type": "int"
+                    },
+                    {
+                        "name": "MSAcctAuthType",
+                        "type": "int"
+                    },
+                    {
+                        "name": "MSAcctEAPType",
+                        "type": "int"
+                    },
+                    {
+                        "name": "MSRASVersion",
+                        "type": "string"
+                    },
+                    {
+                        "name": "MSRASVendor",
+                        "type": "int"
+                    },
+                    {
+                        "name": "MSCHAPError",
+                        "type": "string"
+                    },
+                    {
+                        "name": "MSCHAPDomain",
+                        "type": "string"
+                    },
+                    {
+                        "name": "MSMPPEEncryptionTypes",
+                        "type": "int"
+                    },
+                    {
+                        "name": "MSMPPEEncryptionPolicy",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ProxyPolicyName",
+                        "type": "string"
+                    },
+                    {
+                        "name": "ProviderType",
+                        "type": "int"
+                    },
+                    {
+                        "name": "ProviderName",
+                        "type": "string"
+                    },
+                    {
+                        "name": "RemoteServerAddress",
+                        "type": "string"
+                    },
+                    {
+                        "name": "MSRASClientName",
+                        "type": "string"
+                    },
+                    {
+                        "name": "MSRASClientVersion",
+                        "type": "int"
+                    },
+                    {
+                        "name": "FilePath",
+                        "type": "string"
+                    },
+                    {
+                        "name": "RawData",
+                        "type": "string"
+                    }
+              ]
+        }
+    }
+}
